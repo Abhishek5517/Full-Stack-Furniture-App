@@ -1,0 +1,36 @@
+{
+    "server": {
+        "port": 8080
+    },
+    "app": {
+        "apiPrefix" : "",
+        "url": "http://localhost"
+    },
+    "validations": {
+        "leastNodeVersion": 10
+    },
+    "credentials": {
+        "apikey": "Tyu5uyPTdcd/m+6RDIiQbd7D315T3Gb02Lq7bhrUOWo=",
+        "appId": "cs-c73a0bb4-10b6-5b68-ae30-dea26740d0d8",
+        "st-67890":{
+            "apikey": "test_api_key2",
+            "appId": "test_app_id2"
+        }
+    },
+    "redis": {
+        "options": {
+            "host": "localhost",
+            "port": 6379
+        },
+        "available": false
+    },
+    "examples" : {
+        "mockServicesHost"  : "http://localhost:8004"
+    },
+    "liveagentlicense": "8947569",
+    "supportsMessageAck": true,
+    "languages":["en","de"],
+    "headers": {
+        "user-agent": "Kore/BotKit"
+    }
+}
