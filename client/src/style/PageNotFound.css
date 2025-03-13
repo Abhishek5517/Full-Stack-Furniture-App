@@ -1,0 +1,15 @@
+.page-not-found-cont{
+    /* padding: 2em ; 
+    margin : 5em ;  */
+    /* box-shadow : 1px 1px 10px; */
+    
+}
+.error-code-image{
+    width : 100%;
+    text-align: center;
+    /* height: 5em; */
+}
+.not-found-image{
+    max-width: 100%;
+    height: 650px;
+}

@@ -1,0 +1,102 @@
+.order-card {
+    background-image: linear-gradient(to right, #e5e5e5 , #8888ef);
+    margin: 2em;
+    margin-left: 10%;
+    margin-right : 10%;
+    width : 80%;
+    padding: 1em;
+    /* height: 20% ; */
+    /* height : 10em; */
+    border-radius: 1em;
+    box-shadow: 1px 1px 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+
+.order-header{
+    background-image: linear-gradient(to right, #dddddd , #b8b8cc);
+
+    display: flex;
+    box-shadow: 1px 1px 5px;
+    padding: 1em;
+    margin: 0%;
+    border-top-left-radius: 1em;
+    border-top-right-radius: 1em;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.order-delivery-date{
+    background-image: linear-gradient(to right, #dddddd , #b8b8cc);
+
+    display:flex;
+    padding: 1em;
+    box-shadow: 1px 1px 10px;
+    margin-top:0.5em;
+    justify-content: space-between;
+    align-items: center;
+   
+}
+
+.order-footer{
+    background-image: linear-gradient(to right, #dddddd , #b8b8cc);
+
+    box-shadow: 1px 1px 5px;
+    padding: 1em;
+    border-bottom-left-radius: 1em;
+    border-bottom-right-radius: 1em;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.order-descrption{
+    background-image: linear-gradient(to right, #dddddd , #b8b8cc);
+
+    display: flex;
+    flex-direction: row;
+    padding: 1em;
+    margin: 0.5em 0em 0.5em 0em;
+    box-shadow: 1px 1px 10px
+}
+
+.order-image{
+    padding: 1em;
+    width: 40%;
+    box-shadow: 1px 1px 5px;
+}
+.order-image-desc{
+    background-image: linear-gradient(to right, #dddddd , #b8b8cc);
+    position : relative ;
+    padding: 1em;
+    height: 30em;
+    width: 50%;
+    margin-left: 2em;
+    /* box-shadow: 1px 1px 5px; */
+}
+
+.order-image-desc-list{
+    list-style: none;
+    background-image: linear-gradient(to right, #dddddd , #b8b8cc);
+
+}
+
+.order-price{
+    position: absolute;
+    bottom : 8%;
+}
+
+.order-description{
+    /* text-overflow: ellipsis; */
+    /* word-wrap: break-word; */
+    scroll-behavior: auto;
+    /* overflow: hidden; */
+    /* color:white;
+     */
+
+     overflow-y: auto;
+     height: 20em ; 
+    /* margin-left: 2%; */
+    /* font-size: small; */
+    /* line-height: 1.8em; */
+}

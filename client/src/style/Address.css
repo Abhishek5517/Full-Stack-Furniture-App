@@ -1,0 +1,49 @@
+.address{
+    display: flex;
+    padding: 1em;
+    align-items: center;
+    margin: 2em;
+    
+  }
+  
+  .edit-address:hover{
+       text-shadow : 1px 1px 5px ; 
+       cursor: pointer;
+  }
+  #adress{
+    width: 100%;
+  }
+  
+  
+  
+  .address-value{
+    box-shadow: 1px 1px 10px;
+    background-image: linear-gradient(to right, #ffffff, #ffffff);
+    border-radius: 1em;
+    margin-right: 10em;
+    width : 30em;
+    height : 10em;
+    padding: 2em;
+    display: block;
+    text-overflow: ellipsis;
+    word-wrap: break-word;
+    overflow: hidden;
+  
+    line-height: 1.8em;
+  }
+  
+  .address-container{
+    padding : 1em ;
+    border-radius: 1em ; 
+    margin: 5em 10em 5em 10em;
+    height : 27em;
+      box-shadow: 1px 1px 10px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      background-image: linear-gradient(to right, #d8dae6, #d3d5e2);
+
+      justify-content: flex-start;
+      font-family: 'Victor Mono', monospace;
+  
+  }

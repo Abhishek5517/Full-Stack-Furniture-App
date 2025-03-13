@@ -1,0 +1,48 @@
+.home-display-card {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: flex-end;
+    justify-content: space-between;
+    position: relative;
+    width: 18em;
+    height: 28em;
+    box-shadow: 2px 2px 20px;
+    border-radius: 1%;
+    background-color: #c7feff;
+    margin:1em;
+  
+}
+
+.dis-card-image{
+    border-radius: 1%;
+}
+.card-image-desc, .card-navigation-page{
+    padding :1em;
+}
+
+ .card-navigation-page{ 
+
+    height: 10%;
+} 
+
+.card-image-desc{
+
+    height : 20%;
+} 
+.home-dis-card-img{
+    position: relative;
+    display:inline-block;
+    height:70%;
+}
+.notify-badge{
+    position: absolute;
+    right:-20px;
+    top:-10px;
+    background:rgb(11, 28, 85);
+    text-align: center;
+    border-radius: 1em 1em 1em 1em;
+    color:white;
+    padding:2% 5%;
+    font-size:1em;
+}

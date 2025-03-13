@@ -1,0 +1,17 @@
+.supplier-name,.supplier-email,.supplier-phone,.supplier-address{
+    padding :1em ; 
+    margin: 1em ;
+}
+.offcanvas-header{
+    background-image: linear-gradient(to right, #dddddd , #b8b8cc);
+
+}
+
+.buying-confirmation{
+    padding: 1em ; 
+    text-align: center;
+    border-radius : 1em ; 
+    box-shadow : 1px 1px 10px;
+    background-image: linear-gradient(to right, #e3f05a , #f1fb30);
+
+}

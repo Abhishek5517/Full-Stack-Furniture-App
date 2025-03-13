@@ -1,0 +1,21 @@
+[{
+    "name":"table2",
+    "type":"table",
+    "description":"Table for dining huihui",
+    "image":"../images/Home-card-images/sofa1.avif",
+    "badge":"New",
+    "price":"₹6000",
+    "dimension" : "100x60x50",
+    "ratings" :"4.8 star"
+    
+},{
+    "name":"table1",
+    "type":"table",
+    "description":"Table for dining huihui.",
+    "image":"../images/Home-card-images/table1.avif",
+    "badge":"Old",
+    "price":"₹2500",
+    "dimension" : "100x70x55",
+    "ratings" :"4.8 star"
+}
+]

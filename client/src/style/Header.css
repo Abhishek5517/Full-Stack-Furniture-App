@@ -1,0 +1,58 @@
+.carousel-item {
+    justify-content: center;
+    height: 40em;
+}
+
+
+
+.carousel {
+    margin-bottom: 5em;
+}
+
+.nav-tabs {
+    position: relative;
+    top: 0%;
+    left: 0em;
+    right: 0em;
+}
+
+.carousel-slider {
+    margin-top: 2em;
+}
+
+.carousel-image {
+    width: 100%;
+    height: 40em;
+}
+
+.carousel-caption {
+    text-shadow: 5px 5px 10px black;
+    font-weight: 1000;
+    font-size: 2em;
+    font-family: cursive;
+}
+
+.sec-nav {
+    margin-bottom: 1em;
+    
+    margin-left: 3em;
+    margin-right: 3em;
+
+}
+
+.home-card-wrapper {
+    position: relative;
+    margin: 3em;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.carousel-dropdown {
+    position: relative;
+    text-align: center;
+}
+
+/* .slide-toggle{
+    margin-left: 3em;
+    margin-right: 3em;
+} */

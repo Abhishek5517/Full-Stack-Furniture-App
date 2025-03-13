@@ -1,0 +1,99 @@
+
+.compare-card{
+  background-image: linear-gradient(to right, #202121, #070707);
+  display: flex;
+    flex-direction: column;
+    position: relative;
+    margin: 1em; 
+    box-shadow : 1px 1px 10px ;
+    font-family: 'Victor Mono', monospace;
+    width: 25em;
+    height: 40em;
+    padding: 1em;
+    border-radius: 1em;
+    margin-right: 5em;
+    margin-left: 5em;
+  
+  }
+  
+  .compare-card-name{
+    text-align: center;
+    height:10%;
+    color:white;
+    background-image: linear-gradient(to right, #202121, #070707);
+    border-radius: 1em ; 
+    border-bottom-left-radius: 0em;
+    border-bottom-right-radius: 0em;
+  }
+  
+  .comparesion-table{
+    height:50%;
+    color: white;
+    background-image: linear-gradient(to right, #202121, #070707);
+ 
+  }
+  .table{
+    color:white;
+  }
+  .compare-card-desc{
+    text-overflow: ellipsis;
+  word-wrap: break-word;
+  scroll-behavior: auto;
+  /* overflow: hidden; */
+  color:white;
+  margin-left: 2%;
+  font-size: small;
+  line-height: 1.8em;
+  }
+  .close-card-compare{
+    position: absolute;
+    cursor: pointer;
+    right:-15px;
+    top:-10px;
+    background:rgb(219, 0, 0);
+    text-align: center;
+    border-radius: 1em 1em 1em 1em;
+    color:white;
+    padding: 1% 4%;
+    font-size:1em;
+  }
+  .close-card-compare:hover{
+    box-shadow: 1px 1px 10px rgb(219, 56, 56);
+  }
+  .compare-card-image{
+    height: 40%;
+  }
+  .compare-image{
+    height: 100%;
+    width:100%;
+  }
+.comp-card-desc{
+  color:white;
+  overflow-y: auto;
+  max-height: 55vh;
+  /* overflow: hidden; */
+  height: 6em;
+  margin-left: 2%;
+  font-size: small;
+}
+  .buy-button-wrapper{
+    background-image: linear-gradient(to right, #4eafcf, #27a4c1);
+    
+      position: absolute ;
+      text-align: center;
+      bottom:3px;
+      right: 35%;
+      width: 7em; 
+      padding : 1em ; 
+      border-radius: 1em ; 
+     
+      background-image: linear-gradient(to right, #499ba5 , #656cb7);
+  }
+
+
+  .buy-button-wrapper:hover{
+    box-shadow : 1px 1px 20px ; 
+  }
+  .button-buy{
+
+  }

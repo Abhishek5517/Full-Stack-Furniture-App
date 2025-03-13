@@ -1,0 +1,8 @@
+.No-data-comp{
+    margin: 10em 20em 10em 20em;
+    box-shadow: 1px 1px 50px;
+    padding: 10em;
+    border-radius: 1em;
+    background-image: linear-gradient(to right, #e5e5e5 , #8888ef);
+    font-family: 'Victor Mono', monospace;
+  }

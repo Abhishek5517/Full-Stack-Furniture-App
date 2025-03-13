@@ -1,0 +1,35 @@
+.productsWrapper{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.prod-nav{
+    margin: 1em;
+    padding: 1em ;
+    box-shadow: 1px 1px 10px ;
+    border-radius:1em;
+}
+
+.prod-nav:hover{
+    cursor: pointer;
+}
+.product-nav-wrapper{
+    margin: 1em;
+    padding :1em;
+}
+
+.back-to-top{
+    position : fixed ; 
+    bottom: 3.5% ;
+    right : 7% ; 
+    box-shadow : 1px 1px 10px ; 
+    z-index : 3 ; 
+    padding:1em;
+    padding-top:0.5em;
+    padding-left : 0.8em;
+    background-image: linear-gradient(to right, #4b3939 , #02021d);
+    height : 40px ; 
+    width : 40px;
+    border-radius : 50%;
+
+}

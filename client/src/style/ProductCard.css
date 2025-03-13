@@ -1,0 +1,127 @@
+.Product-Card {
+  position: relative;
+  margin: 2em;
+  border-radius: 1em;
+  box-shadow: 1px 1px 20px;
+  /* font-family: 'Victor Mono', monospace; */
+  font-weight: 700;
+  width: 23em;
+  height: 40em;
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+}
+
+
+.product-price-buttons {
+  display: flex;
+  height: 20%;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+
+.product-category,
+.product-type,
+.product-dimension,
+.product-description {
+  padding: 0.2em;
+}
+
+.product-category,
+.product-type,
+.product-dimension {
+  height: 10%;
+}
+
+.product-description {
+  height: 40%;
+}
+
+.product-details {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  background-image: linear-gradient(to right, #dddddd, #b8b8cc);
+  border-bottom-left-radius: 1em;
+  border-bottom-right-radius: 1em;
+}
+
+.product-desc {
+
+  overflow: auto;
+  max-height: 55vh;
+  margin-left: 2%;
+  font-size: small;
+
+}
+
+.add-to-cart,
+.buy-button {
+  padding: 0.5em;
+  border-radius: 1em;
+  margin: 0.2em;
+}
+
+.product-image {
+  height: 40%;
+}
+
+.product-name {
+  height: 10%;
+  text-align: center;
+  /* padding: 0.5em; */
+  color: white;
+  background-image: linear-gradient(to right, #000000, #000000);
+  border-top-left-radius: 1em;
+  border-top-right-radius: 1em;
+}
+
+.product-details {
+  height: 50%;
+  padding: 1em;
+  color : white;
+  background-image: linear-gradient(to right, #202121, #070707);
+
+}
+
+.buy-button {
+  background-image: linear-gradient(to right, #4eafcf, #27a4c1);
+  box-shadow: 1px 1px 10px;
+}
+
+.add-to-cart {
+  background-image: linear-gradient(to right, #dfd98f, #e1e67e);
+  box-shadow: 1px 1px 10px;
+}
+
+.product-description {
+  display: flex;
+}
+
+.Compare-card {
+  position: absolute;
+  cursor: pointer;
+  right: -20px;
+  top: 300px;
+  background: rgb(219, 0, 0);
+  text-align: center;
+  color: white;
+  box-shadow: 1px 1px 5px white;
+  padding: 2%;
+  border-radius: 1em;
+  font-size: 1em;
+  height: 40px;
+ 
+}
+
+.product-image-display {
+  height: 100%;
+  width: 100%;
+}
+
+.product-price{
+  margin: 2%;
+}

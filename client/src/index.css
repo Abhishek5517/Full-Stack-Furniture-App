@@ -1,0 +1,32 @@
+.price-tag{
+  text-shadow: 1px 1px 2px midnightblue;
+}
+
+.payment-successful, .payment-Cancelled{
+  padding : 1em ; 
+  margin : 10em ; 
+  display: flex;
+  flex-direction: column;
+}
+
+.backNavigation{
+  /* margin-left : 2em ;  */
+ 
+ 
+  z-index: 3;
+  position: fixed;
+  border-radius: 50%;
+  top: 10%;
+  background-image: linear-gradient(to right, #4b3939 , #02021d);
+  border-radius: 50%;
+  box-shadow: 1px 1px 10px;
+  padding: 1em;
+  padding-top:0.8em;
+  margin-left: 1%;
+  height:50px;
+  width : 50px;
+}
+
+.backNavigation:hover{
+  cursor: pointer;
+}

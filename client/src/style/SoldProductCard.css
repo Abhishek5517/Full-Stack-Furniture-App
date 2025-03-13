@@ -1,0 +1,71 @@
+
+.sold-product-card{
+  background-image: linear-gradient(to right, #e5e5e5 , #8888ef);
+  margin: 5em ; 
+       box-shadow : 1px 1px 20px ;
+       border-radius: 1em ;
+       padding : 1em ; 
+       font-family: 'Victor Mono', monospace;
+  }
+  .sold-product-card-header{
+    display: flex;
+    justify-content: space-between;
+    box-shadow : 1px 1px 10px ;
+    border-radius: 1em ;
+    padding : 1em ;
+    background-image: linear-gradient(to right, #dddddd , #b8b8cc);
+  }
+  
+  .sold-product-card-content{
+    display: flex; 
+    margin-top:1em ;
+  
+  }
+  
+  .sold-product-card-details{
+      display: flex ; 
+      width : 70%;
+      box-shadow : 1px 1px 10px ;
+      border-radius: 1em ;
+      padding : 1em ;
+      margin-right : 1em ; 
+      background-image: linear-gradient(to right, #dddddd , #b8b8cc);
+
+  }
+  
+  .sold-product-card-image{
+    width : 40%;
+  }
+  
+  .sold-product-card-description{
+    width : 60%;
+  }
+  
+  .sold-product-desc{
+    list-style:  none;
+  }
+  
+  .sold-product-card-pdate{
+      width : 30%;
+      display: flex;
+      flex-direction: column;
+  }
+  
+  .sold-product-card-price{
+    text-align: center;
+     height : 60%;
+     margin-bottom : 1em ; 
+     box-shadow : 1px 1px 10px ;
+     border-radius: 1em ;
+     padding : 1em ;
+     background-image: linear-gradient(to right, #dddddd , #b8b8cc);
+    }
+  .sold-product-card-deliver-date{
+    height : 40%;
+    box-shadow : 1px 1px 10px ;
+    border-radius: 1em ;
+    padding : 1em ;
+    background-image: linear-gradient(to right, #dddddd , #b8b8cc);
+
+  }
+  

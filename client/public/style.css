@@ -1,0 +1,27 @@
+::-webkit-scrollbar {
+    width: 10px;
+    border-radius: 50%;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #ebe9e5; 
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: rgb(40, 193, 228); 
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: rgb(2, 86, 125); 
+  }
+
+  *{
+    font-weight: 700;
+  }
+
+  body{
+    background-image: linear-gradient(to right, #767979, #696a69);
+  }

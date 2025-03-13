@@ -1,0 +1,8 @@
+.modal-content{
+    background-image: linear-gradient(to right, #404041 , #000000);
+    font-family: 'Victor Mono', monospace;
+    color: #85ceeb;
+}
+.form-text{
+    color: #7dd7ee;
+}

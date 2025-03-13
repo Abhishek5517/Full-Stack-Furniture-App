@@ -1,0 +1,42 @@
+
+.user-profile-details{
+    background-image: linear-gradient(to right, #e5e5e5 , #8888ef);
+
+    margin: 5em;
+    margin-left: 15em;
+    margin-right : 15em;
+    padding: 1em;
+    box-shadow: 1px 1px 50px;
+    border-radius: 1em;
+    font-family: 'Victor Mono', monospace;
+}
+
+.profile-id,.profile-name,.profile-password,.profile-email,.profile-phoneNumber{
+    display: flex;
+    flex-direction: row;
+    padding : 1em;
+    align-items: center;
+ 
+
+}
+.id-icon,.name-icon,.password-icon,.email-icon,.phoneNumber-icon{
+    margin-left: 20%;
+}
+.id-name,.name-name,.password-name,.email-name,.phoneNumber-name{
+    margin-left: 5em;
+    box-shadow: 1px 1px 10px;
+    padding: 1em;
+    width: 50%;
+    background-image: linear-gradient(to right, #dddddd , #b8b8cc);
+    border-radius: 1em;
+}
+
+.edit-phone{
+    margin-left : 2em;
+ 
+}
+
+.edit-phone:hover{
+    cursor: pointer;
+    text-shadow: 1px 1px 5px;
+}
