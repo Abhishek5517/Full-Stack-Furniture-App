@@ -1,5 +1,5 @@
-var botId = "st-18f07f58-645f-53b1-a7b6-59781b4ab540";
-var botName = "Zenith Furniture Bot";
+var botId = "st-17d0aebd-a99a-5d4c-9f79-f81732436005";
+var botName = "ZF Bot";
 var sdk = require("./lib/sdk");
 var nodemailer = require('nodemailer');
 require('dotenv').config();

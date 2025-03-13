@@ -5,8 +5,8 @@ const bodyParser = require('body-parser');
 const cors = require('cors');
 const appExp = express();
 const PORT = 8080;
-const  productRoutes =  require('./routes/products.js');
-const  loginSignUpRoutes = require('./routes/login.js');
+const productRoutes =  require('./routes/products.js');
+const loginSignUpRoutes = require('./routes/login.js');
 const botLoginRoutes = require('./routes/botLogin.js')
 const cartRoutes = require('./routes/cart.js');
 const userRoutes = require('./routes/user.js');
@@ -18,7 +18,7 @@ const PaymentRoutes = require('./routes/paymentRouteStripe.js')
 const authCheck = ( req , res , next ) =>{
     // console.log(req.headers.auth);
     if( !req.headers.auth || req.headers.auth != 'abhi123'){
-        res.status(404).json({"error" : "Us not Identify"}) ;
+        res.status(404).json({"error" : "User not Identified"}) ;
     }else{
         next();
     }

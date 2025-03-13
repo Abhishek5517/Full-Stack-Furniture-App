@@ -33,9 +33,9 @@ const productPostFromAPI = ( req , res ) =>{
       let supplierTableData = [] ;
       for( let i = 0 ; i < payload.length ; i++){
         let name = "Abhishek" ;
-        let email = "abhishekkumre2001@gmail.com" ;
+        let email = "abhishek@gmail.com" ;
         let Address = "" ;
-        let phone = "+917049250673" ;
+        let phone = "+917049254563" ;
         let product_name =  payload[i]["product_title"].split(" ").length > 1 ? payload[i]["product_title"].split(" ")[0] +" "+ payload[i]["product_title"].split(" ")[1] : payload[i]["product_title"].split(" ")[0];
         let type = req.params.type  ;
         let dimension = '' ;

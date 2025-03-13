@@ -20,3 +20,8 @@ exports.insertOrder = (productId ,userEmail , supplierId , callback) =>{
     const date = new  Date();
     connection.query(query, [productId, userEmail, date, supplierId, 'placed'],callback) ;
 }
+
+exports.getUserDetails = ( userEmail , callback) =>{
+    const query = `SELECT * from userdetails where userEmail = ?` ;
+    connection.query(query ,[userEmail], callback) ;
+}
